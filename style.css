@@ -148,3 +148,52 @@ hr {
     color: #B9B9B9;
 
 }
+
+/* --------------------------------------
+-------------Media Queries------------
+----------------------------------------- */
+
+@media only screen and (max-width:688px) {
+    .top-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container {
+        grid-template-columns: 1, 1fr;
+
+    }
+
+    .content-aria {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    .left-content {
+        width: 100%;
+        background-color: white;
+    }
+
+    .right-main-container {
+        width: 100%;
+        display: inline;
+
+    }
+
+    .right-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
