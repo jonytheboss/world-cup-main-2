@@ -119,6 +119,19 @@ hody {
 -------------End right contant------------
 ----------------------------------------- */
 
+.view-nav {
+    height: 30px;
+    margin: auto;
+    margin-top: 50px;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+}
+
 footer {
     height: 300px;
     width: 100%;
@@ -154,6 +167,11 @@ hr {
 ----------------------------------------- */
 
 @media only screen and (max-width:688px) {
+
+    body {
+        margin: auto;
+    }
+
     .top-container {
         width: 100%;
         flex-direction: column;
@@ -186,6 +204,10 @@ hr {
         flex-direction: column;
     }
 
+    .view-nav {
+        display: none;
+    }
+
     footer {
         height: auto;
     }
@@ -196,4 +218,38 @@ hr {
         text-align: center;
     }
 
+}
+
+/* --------------------------------------
+-------------Ipad Queries------------
+----------------------------------------- */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .content-aria {
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    .left-content {
+        display: flex;
+        background-color: white;
+        height: auto;
+    }
+
+    .right-main-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* --------------------------------------
+-------------Laptop Queries------------
+----------------------------------------- */
+@media only screen and (min-width: 992px) and (max-width: 1312px) {
+
+    .view-nav {
+        display: none;
+    }
 }
