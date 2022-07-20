@@ -1,0 +1,150 @@
+hody {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top-container {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 80%;
+    padding-top: 30px;
+    background-color: #161616;
+}
+
+.top-banner {
+    height: auto;
+    width: auto;
+    margin-right: 80px;
+
+}
+
+.container {
+    height: auto;
+    width: auto;
+    color: white;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+}
+
+.top-title {
+    font-size: 50px;
+}
+
+.top-button {
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+/* --------------------------------------
+-------------End the top aria------------
+----------------------------------------- */
+
+.content-aria {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 90%;
+}
+
+#Upcoming-match {
+    background-color: red;
+    color: white;
+}
+
+.left-content {
+    height: 220px;
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.left-content-aria {
+    width: 180px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 800;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* --------------------------------------
+-------------End left contant------------
+----------------------------------------- */
+.right-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.right-content {
+    height: 220px;
+    width: 270px;
+    border: 1px solid #E8E8E8;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.right-content-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.vs-h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-content-bottom {
+    text-align: center;
+}
+
+/* --------------------------------------
+-------------End right contant------------
+----------------------------------------- */
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #161616;
+    color: white;
+}
+
+.footer-h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    color: #B9B9B9;
+}
+
+.footer-nav p {
+    margin-left: 20px;
+    color: #B9B9B9;
+
+}
